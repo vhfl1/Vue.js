@@ -1,9 +1,7 @@
-<template></template>
-<h4>UComponent1</h4>
-<p>
-Name: {{name}}
-Age: {{age}}
-</p>
+<template>
+  <h4>UComponent1</h4>
+  <p>Name: {{ name }} Age: {{ age }}</p>
+</template>
 <script>
 export default {
   name: "UComponent1",
